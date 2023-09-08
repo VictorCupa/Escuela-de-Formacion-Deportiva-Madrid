@@ -1,0 +1,111 @@
+/*************************fuente h1*********************/
+@import url("https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral+SC:wght@700&display=swap");
+:root {
+  --fuenteTitulos: "Spectral SC", serif;
+  --colorFuenteTitulos: #e7e2eb;
+}
+
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 auto;
+} */
+
+.hero {
+  padding: 100px;
+  max-width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(5, 2, 5, 0.7), rgba(5, 2, 5, 0.7)),
+    url(./img/backgroun-hero-content.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.hero__tittle {
+  font-family: var(--fuenteTitulos);
+  color: var(--colorFuenteTitulos);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 100px;
+}
+.carouse {
+  gap: 30px;
+  font-family: var(--fuenteTitulos);
+}
+.carouse__tittle,
+.services__tittle {
+  font-family: var(--fuenteTitulos);
+  padding: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 55px;
+  font-weight: bold;
+  font-style: italic;
+}
+.carousel-inner {
+  padding: 10px;
+}
+.carousel__item {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 35rem;
+}
+
+.form__tittle {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: var(--fuenteTitulos);
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+}
+/******estilos pagina karate*****/
+.hero__karate {
+  padding: 100px;
+  max-width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(5, 2, 5, 0.7), rgba(5, 2, 5, 0.7)),
+    url(./img/background-hero-karate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #569855;
+}
+.hero__mountainBike {
+  padding: 100px;
+  max-width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(5, 2, 5, 0.7), rgba(5, 2, 5, 0.7)),
+    url(./img/mountainBike_hero.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #569855;
+}
+.hero__taekwondo {
+  padding: 100px;
+  max-width: 100%;
+  height: 600px;
+  background: linear-gradient(rgba(5, 2, 5, 0.7), rgba(5, 2, 5, 0.7)),
+    url(./img/taekwondo_hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.button__sticky {
+  position: sticky;
+  top: 0;
+}
